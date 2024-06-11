@@ -1,0 +1,71 @@
+body {
+    font-family: 'Press Start 2P', cursive; /* Fonte 8-bits */
+    background-color: #000; /* Fundo preto para o estilo retrô */
+    color: #fff; /* Texto branco */
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444; /* Cor de fundo cinza escuro */
+    border: 4px solid #fff; /* Borda branca */
+    box-shadow: 0 0 0 8px #000; /* Sombra sólida */
+}
+
+h1 {
+    color: #ffcc00; /* Amarelo brilhante */
+    text-align: center;
+    text-shadow: 1px 1px #000; /* Sombra para texto */
+}
+
+input {
+    display: block;
+    width: calc(100% - 20px); /* Ajusta o preenchimento */
+    padding: 10px;
+    margin: 0 auto 10px auto;
+    background-color: #666; /* Fundo cinza escuro */
+    color: #fff; /* Texto branco */
+    border: 2px solid #666; /* Borda branca */
+    box-shadow: 0 0 0 4px #000; /* Sombra sólida */
+    font-family: 'Press Start 2P', cursive; /* Fonte 8-bits */
+    text-shadow: 1px 1px #000; /* Sombra para texto */
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    color: #fff;
+    background-color: #ffcc00; /* Amarelo brilhante */
+    border: 2px solid #fff; /* Borda branca */
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive; /* Fonte 8-bits */
+    text-shadow: 1px 1px #000; /* Sombra para texto */
+    box-shadow: 0 0 0 4px #000; /* Sombra sólida */
+}
+
+button:hover {
+    background-color: #e6b800; /* Amarelo um pouco mais escuro */
+}
+
+p {
+    color: #ffcc00; /* Amarelo brilhante */
+    font-size: 1.3em;
+    text-shadow: 1px 1px #000; /* Sombra para texto */
+}
+
+.aprovado {
+    color: #00ff00; /* Verde brilhante */
+}
+
+.reprovado {
+    color: #ff0000; /* Vermelho brilhante */
+}
+
+.recuperacao {
+    color: #ffa500; /* Laranja brilhante */
+}
+
+/* Estilo para fonte 8-bits */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
